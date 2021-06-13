@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Appbar, Title, Dialog, Portal, Button, TextInput } from 'react-native-paper';
 
-export default function Home() {
+export default function Pill() {
   const [firstBoot, setFirstBoot] = useState(true);
   const [name, setName] = useState("");
 
